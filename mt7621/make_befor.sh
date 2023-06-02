@@ -19,6 +19,7 @@ if [[ -d "package/lean/" ]]; then
 # rm -rf package/lean/luci-theme-argon
 # git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
 # git clone https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge
+ sed -i 's/luci-theme-bootstrap/luci-theme-argone/g' ./feeds/luci/collections/luci/Makefile
  sed -i "s/OpenWrt /wlhu build $(TZ=UTC-8 date "+%Y.%m.%d")@ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 fi
 
