@@ -1,5 +1,5 @@
 ####################################
-#  update for 2023/06/29 16:00:15  #
+#  update for 2023/11/20 14:08:35  #
 ####################################
 
 name: 编译固件_lede
@@ -16,6 +16,7 @@ on:
           - "XIAOMI-4A_100M"
           - "XIAOMI-4A_GIGABit"
           - "mt7621"
+          - "x86"
       repo_branch:
         type: choice
         description: '版本分支'
